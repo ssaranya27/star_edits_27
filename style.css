@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#0b0b0b;
+  color:#fff;
+  line-height:1.6;
+}
+
+.hero{
+  min-height:100vh;
+  text-align:center;
+  padding:90px 20px;
+  background:radial-gradient(circle at top,#1c1c1c,#000);
+}
+
+.brand{
+  letter-spacing:4px;
+  opacity:.7;
+  margin-bottom:10px;
+}
+
+.hero h1{
+  font-size:2.6rem;
+  margin-bottom:15px;
+}
+
+.tagline{
+  opacity:.8;
+  margin-bottom:40px;
+}
+
+.cta{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:12px 28px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:500;
+  display:inline-block;
+}
+
+.primary{
+  background:#ff4d4d;
+  color:#fff;
+}
+
+.secondary{
+  border:1px solid #ff4d4d;
+  color:#ff4d4d;
+}
+
+section{
+  padding:80px 20px;
+  max-width:1100px;
+  margin:auto;
+  text-align:center;
+}
+
+h2{
+  font-size:2rem;
+  margin-bottom:40px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+}
+
+.box{
+  background:#111;
+  padding:30px;
+  border-radius:15px;
+}
+
+.highlight{
+  border:2px solid #ff4d4d;
+}
+
+.price{
+  font-size:1.4rem;
+  margin:15px 0;
+  color:#ff4d4d;
+}
+
+.contact form{
+  max-width:450px;
+  margin:30px auto 0;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input, textarea{
+  padding:12px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+.simple-header{
+  text-align:center;
+  padding:80px 20px 40px;
+}
+
+.sample{
+  background:#111;
+  padding:20px;
+  border-radius:15px;
+}
+
+.placeholder{
+  background:#1e1e1e;
+  height:160px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity:.6;
+  margin-bottom:10px;
+}
+
+footer{
+  background:#060606;
+  text-align:center;
+  padding:20px;
+  font-size:.85rem;
+  opacity:.7;
+}
+
+@media(max-width:768px){
+  .hero h1{
+    font-size:2rem;
+  }
+}
+.sample h3{
+  margin-top:10px;
+  font-weight:500;
+}
+
+.sample-price{
+  margin-top:6px;
+  font-size:0.95rem;
+  color:#ff4d4d;
+  opacity:.9;
+}
+.sample {
+  background: linear-gradient(145deg, #111, #0a0a0a);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.sample:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+}
+.placeholder {
+  background: radial-gradient(circle at top, #222, #111);
+  height: 160px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+.sample-btn {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #ff4d4d;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.sample-btn:hover {
+  opacity: 1;
+}
